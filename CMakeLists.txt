@@ -3,4 +3,6 @@ project(md2html C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(md2html main.c)
+add_executable(md2html src/main.c
+        src/args.h
+        src/args.c)
